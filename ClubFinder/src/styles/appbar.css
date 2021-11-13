@@ -1,0 +1,10 @@
+app-bar {
+    display: block; /* krn custom element standarnya itu inline element
+                       shg ngga akan ngisi panjang lebar parent element-nya.
+                       solusinya ngubah sifat inline pd custom element menjadi block  */
+    padding: 16px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
